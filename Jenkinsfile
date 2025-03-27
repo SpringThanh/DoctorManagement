@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clone Source Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/SpringThanh/DoctorManagement.git'
+                git branch: 'master', url: 'https://github.com/SpringThanh/DoctorManagement.git'
             }
         }
         stage('Build Project') {
